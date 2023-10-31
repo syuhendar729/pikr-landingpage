@@ -1,7 +1,7 @@
 import { FaceSmileIcon, ChartBarSquareIcon, CursorArrowRaysIcon, DevicePhoneMobileIcon, SunIcon, GlobeAltIcon, HandRaisedIcon } from '@heroicons/react/24/solid'
 
 import benefitOneImg from '../public/img/konseling.png'
-import benefitTwoImg from '../public/img/benefit-two.png'
+import benefitTwoImg from '../public/img/tujuan.png'
 
 const benefitOne = {
     title: 'Tentang Kami',
