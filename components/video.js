@@ -17,10 +17,10 @@ const Video = () => {
                     )}
                     {playVideo && (
                         <iframe
-                            src='https://drive.google.com/file/d/191xFONXIR7uzogRZ1M5l6nqP8rN2NwOQ/preview'
-                            // src="https://www.youtube.com/embed/aZDp0SDxgfA?si=U_Qqbz3Teq63e7gv"
+                            // src='https://drive.google.com/file/d/191xFONXIR7uzogRZ1M5l6nqP8rN2NwOQ/preview'
+                            src="https://www.youtube.com/embed/GDmAyYhx-Ts?si=7ABLLwFilTThfR_x"
                             title='Video Profile PIK-R'
-                            frameBorder='0'
+                            // frameBorder='0'
                             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                             allowfullscreen></iframe>
                     )}

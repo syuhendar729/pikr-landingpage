@@ -29,8 +29,20 @@ const Faq = () => {
 
 const faqdata = [
     {
-        question: 'Kapan PIK-R ITERA berdiri?',
-        answer: 'PIK-R ITERA berdiri pada tahun 2020.',
+        question: 'Kegiatan apa saja yang dilakukan oleh anggota PIK-R?',
+        answer: 'Kegiatan yang kita lakukan adalah campaign, workshop, program kolaborasi, pelatihan yang berkaitan tentang kesehatan mental, Penyiapan Kehidupan Berkeluarga bagi Remaja (PKBR), pengembangan lifeskill, program Generasi Berencana, serta kegiatan lainnya.',
+    },
+    {
+        question: 'Siapa yang dapat bergabung ke PIK-R Sejahtera?',
+        answer: 'Yang dapat bergabung adalah mahasiswa aktif Institut Teknologi Sumatera tahun pertama atau tahun ke-2.',
+    },
+    {
+        question: 'Apakah untuk menjadi bagian PIK-R Sejahtera ada tahap kaderisasi?',
+        answer: 'Untuk menjadi bagian dari PIK-R Sejahtera, tidak mengikuti kegiatan kaderisasi, melainkan kegiatan Open Recruitment yang dilaksanakan biasanya pada awal semester genap perkuliahan.',
+    },
+    {
+        question: 'Apa manfaatnya kita join ke PIK-R Sejahtera?',
+        answer: 'Anggota PIKR dapat meraih sejumlah manfaat positif setelah bergabung dengan organisasi, termasuk akses terhadap informasi relevan mengenai masalah remaja, dukungan emosional melalui jaringan anggota dan konselor, konseling dan bimbingan pribadi, pengembangan keterampilan komunikasi dan kepemimpinan, partisipasi dalam proyek sosial, pembangunan pertemanan dan jaringan, peningkatan kesadaran diri, serta pengalaman berorganisasi dan bekerja dalam tim. Selain itu, PIK-R juga menyediakan akses ke sumber daya pendidikan tambahan dan kesempatan untuk terlibat dalam kegiatan-kegiatan yang dapat membantu anggota mempersiapkan diri untuk masa depan. Melalui keterlibatan ini, anggota dapat meningkatkan kesejahteraan psikologis dan meraih kepuasan hidup secara keseluruhan.',
     },
 ]
 

@@ -4,7 +4,26 @@ import Image from 'next/image'
 import { Disclosure } from '@headlessui/react'
 
 const Navbar = () => {
-    const navigation = ['Beranda', 'Tentang', 'Kontak', 'Berita', 'Blog']
+    const navigation = [
+        {
+            name: 'Beranda',
+            link: '/'
+        },
+        {
+            name: 'Galery',
+            link: '/galery'
+        },
+        {
+            name: 'Kontak',
+            link: '/kontak'
+        }, 
+        {
+            name: 'Berita',
+            link: '/berita'
+        }, 
+    ]
+    navigation.map((item, index) => console.log(item.name, item.link))
+    // const navigation = ['beranda', 'dll']
 
     return (
         <div className='w-full'>
@@ -42,10 +61,10 @@ const Navbar = () => {
                                     <>
                                         {navigation.map((item, index) => (
                                             <Link
-                                                key={index}
-                                                href='/'
+                                                key={item.name}
+                                                href={item.link}
                                                 className='w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none'>
-                                                {item}
+                                                {item.name}
                                             </Link>
                                         ))}
                                         <Link href='/' className='w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5'>
@@ -62,11 +81,11 @@ const Navbar = () => {
                 <div className='hidden text-center lg:flex lg:items-center'>
                     <ul className='items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex'>
                         {navigation.map((menu, index) => (
-                            <li className='mr-3 nav__item' key={index}>
+                            <li className='mr-3 nav__item' key={menu.name}>
                                 <Link
-                                    href='/'
+                                    href={menu.link}
                                     className='inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800'>
-                                    {menu}
+                                    {menu.name}
                                 </Link>
                             </li>
                         ))}

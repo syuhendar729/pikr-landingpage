@@ -53,7 +53,7 @@ export default function Footer() {
                     <div className=''>
                         <div>Follow us</div>
                         <div className='flex mt-5 space-x-5 text-gray-400 dark:text-gray-500'>
-                            <a href='https://tiktok.com/@sejahtera.itera' target='_blank' rel='noopener'>
+                            <a href='https://www.tiktok.com/@sejahtera.itera' target='_blank' rel='noopener'>
                                 <span className='sr-only'>Twitter</span>
                                 <Tiktok />
                             </a>

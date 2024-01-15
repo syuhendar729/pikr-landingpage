@@ -9,7 +9,7 @@ const Benefits = (props) => {
             <Container className='flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap '>
                 <div className={`flex items-center justify-center w-full lg:w-1/2 ${props.imgPos === 'right' ? 'lg:order-1' : ''}`}>
                     <div>
-                        <Image src={data.image} width='521' height='auto' alt='Benefits' className={'object-cover'} placeholder='blur' blurDataURL={data.image.src} />
+                        <Image src={data.image} width='700' height='auto' alt='Benefits' className={'object-cover'} placeholder='blur' blurDataURL={data.image.src} />
                     </div>
                 </div>
 

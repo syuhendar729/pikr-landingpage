@@ -8,7 +8,7 @@ import Video from '../components/video'
 import Benefits from '../components/benefits'
 import Footer from '../components/footer'
 import Testimonials from '../components/testimonials'
-import Cta from '../components/cta'
+// import Cta from '../components/cta'
 import Faq from '../components/faq'
 import PopupWidget from '../components/popupWidget'
 
@@ -27,6 +27,7 @@ const Home = () => {
             <Benefits imgPos='right' data={benefitTwo} />
             <SectionTitle title='Video Profile PIK-R'>Video ini dibuat untuk memberikan informasi kepada seluruh orang mengenai organisasi PIK-R itu sendiri.</SectionTitle>
             <Video />
+            <Testimonials />
             <SectionTitle pretitle='FAQ' title='Frequently Asked Questions' />
             <Faq />
             <Footer />

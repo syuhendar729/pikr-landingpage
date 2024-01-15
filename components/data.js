@@ -1,18 +1,18 @@
 import { FaceSmileIcon, ChartBarSquareIcon, CursorArrowRaysIcon, DevicePhoneMobileIcon, SunIcon, GlobeAltIcon, HandRaisedIcon } from '@heroicons/react/24/solid'
 
-import benefitOneImg from '../public/img/konseling.png'
-import benefitTwoImg from '../public/img/tujuan.png'
+import benefitOneImg from '../public/img/konseling.jpg'
+import benefitTwoImg from '../public/img/tujuan.jpg'
 
 const benefitOne = {
     title: 'Tentang Kami',
-    desc: `PIK-R adalah singkatan dari Pusat Informasi dan Konseling Remaja. Organisasi ini adalah organisasi yang berada di bawah naungan Kemahasiswaan Institut Teknologi Sumatera. Didirikan pada tahun 2020 dan sudah berumur 3 tahun sampai 2023 ini.`,
+    desc: `PIK-R adalah singkatan dari Pusat Informasi dan Konseling Remaja. Organisasi ini berperan penting dalam hal konseling dan pelayanan informasi yang berkaitan dengan perencanaan kehidupan remaja. Organisasi ini berada di bawah naungan unit Pusat Pengembangan Sumber Daya Manusia (PPSDM)  Institut Teknologi Sumatera. Didirikan pada tahun 2020 dan sudah berumur 3 tahun hingga saat ini.`,
     image: benefitOneImg,
     bullets: [],
 }
 
 const benefitTwo = {
     title: 'Tujuan',
-    desc: 'Memiliki beberapa tujuan diantaranya:',
+    desc: 'PIK-R Sejahtera memiliki beberapa tujuan diantaranya:',
     image: benefitTwoImg,
     bullets: [
         {
